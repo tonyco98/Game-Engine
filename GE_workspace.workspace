@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="GE_workspace" Database="">
+  <Project Name="Core" Path="Core/Core.project" Active="Yes"/>
+  <Project Name="MessageHandler" Path="MessageHandler/MessageHandler.project"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Core" ConfigName="Debug"/>
+      <Project Name="MessageHandler" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Core" ConfigName="Release"/>
+      <Project Name="MessageHandler" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
